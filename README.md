@@ -4,6 +4,14 @@ API REST para gerenciamento de tarefas, com autenticação via JWT, construída 
 
 Cada usuário se cadastra, faz login e gerencia apenas suas próprias tarefas — outros usuários não têm acesso a elas.
 
+## 🌐 Demo ao vivo
+
+A API está publicada no Render e pode ser testada agora mesmo:
+
+👉 **[https://task-api-oy6i.onrender.com/docs](https://task-api-oy6i.onrender.com/docs)**
+
+> Como está hospedada no plano gratuito do Render, o serviço "dorme" após um tempo sem uso — a primeira requisição pode levar de 30 a 50 segundos para responder enquanto o servidor "acorda".
+
 ## ✨ Funcionalidades
 
 - Cadastro e login de usuários (senhas criptografadas com `bcrypt`)
